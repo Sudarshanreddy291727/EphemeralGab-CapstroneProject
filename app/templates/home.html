@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content">
+        <h1>Welcome to EphemeralGab</h1>
+        <img src="{{ url_for('static', filename='welcome_image.jpg') }}" alt="Welcome Image" style="width:100%;max-width:600px;">
+        <p>
+            <a href="{{ url_for('login') }}">Login</a> or <a href="{{ url_for('register') }}">Register</a> to start chatting.
+        </p>
+        <p>
+            Or <a href="{{ url_for('connect') }}">connect</a> with a Chat ID.
+        </p>
+    </div>
+{% endblock %}

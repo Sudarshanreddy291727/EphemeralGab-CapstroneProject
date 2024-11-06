@@ -1,0 +1,6 @@
+Flask
+Flask-SocketIO
+Flask-Mail
+Flask-WTF
+Flask-SQLAlchemy
+eventlet
